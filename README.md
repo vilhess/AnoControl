@@ -66,10 +66,6 @@ The `OneVSAll` folder contains the implementations for the **One vs All** framew
 - **`losses/`**: Includes the loss functions used, such as those for Variational Autoencoders (VAEs).
 - **`detectors/`**: Implements the training methods and scoring mechanisms for each algorithm. For each digit designated as normal, we simulate training and scoring, resulting in 10 separate training and evaluation processes (one for each digit).
 - **`results/`**: Stores the generated figures and calculated p-values for each algorithm and digit.
-- **`analysis.py`**: A Streamlit web application to visualize and compare the results across methods. To run the app, execute the following command:
-  ```bash
-  streamlit run analysis.py
-  ```
 
 --- 
 
@@ -81,6 +77,9 @@ The `AllvsOne` folder contains the implementations for the **All vs One** framew
 - **`losses/`**: Includes the loss functions used, such as those for Variational Autoencoders (VAEs).
 - **`detectors/`**: Implements the training methods and scoring mechanisms for each algorithm. For each digit designated as anormal, we simulate training and scoring, resulting in 10 separate training and evaluation processes (one for each digit).
 - **`results/`**: Stores the generated figures and calculated p-values for each algorithm and digit.
+
+### **Analysis file in the root folder**
+
 - **`analysis.py`**: A Streamlit web application to visualize and compare the results across methods. To run the app, execute the following command:
   ```bash
   streamlit run analysis.py
